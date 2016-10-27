@@ -1,0 +1,49 @@
+
+/* ========== Banner Structure ========== */
+
+#banner-10326 {
+	border: 1px solid #dddddd;
+	width:658px;
+	height:402px;
+	float:left;
+	font-family: 'Helvetica Neue', Arial;
+}
+
+#hero-10326 {
+	background-image: url("../images/10326_hero_1.jpg");
+	width:306px;
+	height:402px;
+	float:left;
+}
+
+#stage-10326 {
+	max-width:352px;
+	height:402px;
+	overflow:hidden;
+}
+
+.item-10326 {
+	float:left;
+	margin:10px;
+	width:332px;
+	height:382px;
+}
+
+/* ========== Typography ========== */
+
+h1 {
+	font-size:30px;
+}
+
+p {
+	font-size:16px;
+}
+
+.small-10326 {
+	font-size:11px;
+}
+
+.red-10326 {
+	font-size:25px;
+	color:#fd4664;
+}

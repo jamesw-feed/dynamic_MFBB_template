@@ -1,0 +1,5 @@
+$.getJSON('http://files.feed.xyz/London/feeds/test.json', function(json) {
+    $.each(json, function(i, value) {
+        $('#stage-10326').append('<div class="item-10326"><p>' + value.name + '</p><p><img src="' + value.picture + '"/></p><p>' + value.balance + '</p><p>' + value.about + '</p></div>');
+    });
+});
