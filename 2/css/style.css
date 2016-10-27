@@ -10,16 +10,23 @@
 }
 
 #hero-10326 {
-	background-image: url("../images/10326_hero_1.jpg");
-	width:306px;
-	height:402px;
+	background:#ffef74;
+	width:256px;
+	height:382px;
+	padding:10px 25px;
 	float:left;
 }
 
-#stage-10326 {
+._title-class {
+	padding: 90px 0px 0px 0px;
+	font-size: 16px !important;
+}
+
+#img-10326 {
 	max-width:352px;
-	height:402px;
+	height:215px;
 	overflow:hidden;
+	padding:10% 0 0 0;
 }
 
 .item-10326 {
@@ -27,23 +34,70 @@
 	margin:10px;
 	width:332px;
 	height:382px;
+	line-height:16px;
+}
+
+.thin-10326 {
+	width:120px;
+	padding:20px 0;
+}
+
+.cta-10326 {
+	border: 1px solid #fd4664;
+	padding: 0px 15px;
+	background: url("../images/arrow-10326.png") right no-repeat;
+	width:140px;
+	height:35px;
+}
+
+#rpp-10326 {
+	padding: 0px 0px 20px 0px
 }
 
 /* ========== Typography ========== */
 
 h1 {
-	font-size:30px;
+	font-size:26px;
+	color:#fd4664;
+}
+
+h2 {
+	font-size:22px;
 }
 
 p {
 	font-size:16px;
 }
 
+.space-10326 {
+	padding:8px 0;
+}
+
+._price-10326 {
+	padding: 8px 0px 4px 0px;
+}
+
 .small-10326 {
 	font-size:11px;
 }
 
-.red-10326 {
-	font-size:25px;
+.space-img-10326 {
+	padding:25px 13%;
+}
+
+p.red-10326 {
+	font-size:18px;
 	color:#fd4664;
+}
+
+.red-10326 {
+	font-size:22px;
+	color:#fd4664;
+}
+._red-color {
+	color:#fd4664;
+}}
+
+.yellow-10326 {
+	color:#ffef74;
 }
